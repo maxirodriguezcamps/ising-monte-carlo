@@ -5,10 +5,10 @@ Trabajo grupal de la materia Mecánica Estadística (FCEyN, UBA, 2025). Proyecto
 Simular el modelo de Ising bidimensional mediante el algoritmo de Metropolis y estimar la temperatura crítica del sistema en el límite termodinámico, comparando red cuadrada y red hexagonal.
 
 ## Metodología
--Implementación del algoritmo de Metropolis, optimizada con numba (@njit) para permitir simulaciones de cientos de miles de pasos de Monte Carlo en tiempos razonables.
--Estudio de la termalización del sistema y del fenómeno de critical slowing down cerca de la temperatura crítica.
--Simulaciones para múltiples tamaños de red (L = 10 hasta L = 100), midiendo magnetización y energía por sitio en función de la temperatura.
--Escaleo de tamaño finito (finite-size scaling): ajuste con curve_fit y propagación de errores para extrapolar la temperatura crítica en el límite L → ∞.
+- Implementación del algoritmo de Metropolis, optimizada con numba (@njit) para permitir simulaciones de cientos de miles de pasos de Monte Carlo en tiempos razonables.
+- Estudio de la termalización del sistema y del fenómeno de critical slowing down cerca de la temperatura crítica.
+- Simulaciones para múltiples tamaños de red (L = 10 hasta L = 100), midiendo magnetización y energía por sitio en función de la temperatura.
+- Escaleo de tamaño finito (finite-size scaling): ajuste con curve_fit y propagación de errores para extrapolar la temperatura crítica en el límite L → ∞.
 ## Resultados
 Se obtuvo una estimación de la temperatura crítica con incertidumbre del orden de 10⁻⁴, tanto para la red cuadrada como para la hexagonal, consistente con los valores conocidos de la literatura.
 
